@@ -1,0 +1,28 @@
+Package: rtry
+Title: Loading, filtering, checking, and analysing data from the TRY database (www.try-db.org)
+Version: 0.0.0.9000
+Authors@R: c(person(given = "Susanne",
+                family = "Tautenhahn",
+                role = c("aut", "cre"),
+                email = "staut@bgc-jena.mpg.de",
+                comment = c(ORCID = "https://orcid.org/0000-0002-2753-3443")),
+                person(given = "Gerhard",
+                family = "Boenisch",
+                role = c("aut", "cre"),
+                email = " boenisch@bgc-jena.mpg.de",
+                comment = c(ORCID = ???)),
+                person(given = "Gabriel",
+                family = "Walther",
+                role = c("aut", "cre"),
+                email = " gabriel.walther@uni-jena.de",
+                comment = c(ORCID = ???)),
+                person(given = "Jens",
+                family = "Kattge",
+                role = c("aut", "cre"),
+                email = " jkattge@bgc-jena.mpg.de",
+                comment = c(ORCID = ???))
+                )
+Description: We provide functions for working with data from the TRY database (www.try-db.org). Load functions help loading the data and appending data from new requests. Filter functions help filtering the data according to different criteria as Error Risk, development status, health status growth conditions etc. It is possible to combine load and filter functions for piecewise loading and filtering large datasets. Further we provide functions for checking data quality and representativeness (e.g. with regards to species distribution, phylogenie, number of records). Also functions for simple analysis and calculation of summary statistics (e.g. species mean trait values, intraspecific trait variability) are provided.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
