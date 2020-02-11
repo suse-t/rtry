@@ -490,8 +490,6 @@ data_filtered_traits_merged <- data_filtered_traits_merged %>%
 rm(individual_identification_matrix, individual_names, Observations_individual_ref, Observations_WO_individual_ref)
 
 
-
-
 #-----------------------------------------------------------------------------------------------------
 # transform data frame into format: 
 # ObservationID, IndividualID, AccSpeciesName, TraitID, TraitName, StdValue, Unit, Latitude, Longitude
@@ -661,4 +659,4 @@ rm(georef, obs_species_x_traits, Latitude, Longitude, include, obs_species_x_tra
 
 data_filtered_georef_n500
 
-save(data_filtered_georef_n500, file = "data_filtered_georef_n500_vorübergehend.RData") 
+save(data_filtered_georef_n500, file = "data_filtered_georef_n500_vor?bergehend.RData") 
